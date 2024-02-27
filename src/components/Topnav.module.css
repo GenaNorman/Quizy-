@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --primary-color: #0e1db0;
+  --primary-color-light: #a0c9ff;
+  --secondary-color: #fac402;
+  --tetiary-color: #fcb721;
+  --text-color: #fcfcfc;
+
+  --description: 1.3rem;
+}
+
+body {
+  font-family: Lato;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+img {
+  width: 3rem;
+  height: 3rem;
+}
+li {
+  display: flex;
+}
+button {
+  width: 21.3rem;
+  color: var(--text-color);
+
+  border-radius: 1.5rem;
+  padding: 0.9rem;
+  text-align: center;
+
+  outline: none;
+}
+.topnav {
+  width: 100vw;
+  height: max-content;
+  background-color: var(--primary-color);
+  display: flex;
+  color: var(--text-color);
+}
+.leftnav {
+  display: flex;
+  width: 19vw;
+  /* margin-bottom: 0.7rem; */
+  /* align-self: center; */
+  padding: 0 2rem;
+  /* background: #000; */
+}
+.hambuger {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0 1rem 0 0;
+
+  align-self: -center;
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  /* margin-left: 1rem; */
+  /* margin-bottom: 0.5px; */
+  margin: 0;
+  align-self: center;
+}
+.rightnav {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+.search {
+  align-self: center;
+}
+.find {
+  background-color: var(--primary-color-light);
+  border: none;
+  width: 25rem;
+  outline: none;
+  padding: 0.5rem 1rem;
+  color: var(--text-color);
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+}
+.student {
+  align-self: center;
+
+  margin-right: 2rem;
+  display: flex;
+  margin: 0;
+}
+.notify {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  align-self: center;
+}
+.notify::after {
+  content: "12";
+  color: var(--text-color);
+  background-color: red;
+  font-size: 0.8rem;
+  border-radius: 2.5rem;
+  /* text-align: center;
+  justify-content: center; */
+  /* align-self: center; */
+  text-align: center;
+  position: relative;
+  bottom: 1rem;
+  right: 1rem;
+}
+.user {
+  /* margin-top: 0.4rem; */
+  border-radius: 25px;
+  align-self: center;
+  margin: 0 1rem;
+}
+.panel {
+  width: 100vw;
+}

@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --primary-sidebar: #141739;
+  --primary-color-light: #4890e9;
+  --secondary-color: #fac402;
+  --tetiary-color: #fcb721;
+  --text-color: #fcfcfc;
+
+  --description: 1.3rem;
+}
+
+body {
+  font-family: Lato;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+img {
+  width: 3rem;
+  height: 3rem;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+span {
+  margin-left: 1rem;
+}
+li {
+  list-style-type: none;
+}
+button {
+  width: 21.3rem;
+  color: var(--text-color);
+  font-size: 1.3rem;
+  border-radius: 1.5rem;
+  padding: 0.9rem;
+  text-align: center;
+  border: 1px solid var(--primary-color);
+  outline: none;
+  background-color: var(--tetiary-color);
+}
+/* BELOW  NAV BAR STYLES */
+
+/* PANEL CONTROL */
+.sidebar {
+  background-color: #00163f;
+  color: var(--text-color);
+  width: 19vw;
+  gap: 1rem;
+  height: 69rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 2rem 2rem 0;
+}
+.element {
+  padding: 0.5rem 0;
+  width: 14rem;
+  transition: 0.7s;
+}
+.element:hover {
+  background-color: #4890e9;
+  border-radius: 0.6rem;
+}
+.element :global(.action) {
+  background-color: #4890e9;
+}
+.logobox {
+  display: flex;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  justify-items: center;
+}
+.logo {
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+}
+/* PANEL DATA */
+.data {
+  width: 80vw;
+}
+.action {
+  margin-left: 1.4rem;
+}
+.panel {
+  width: 20vw;
+  height: 100vh;
+}
+.tabletopic {
+  margin-bottom: 1rem;
+}

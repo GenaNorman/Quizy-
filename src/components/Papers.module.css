@@ -1,0 +1,72 @@
+:root {
+  --primary-color: #0e1db0;
+  --primary-color-light: #4890e9;
+  --secondary-color: #fac402;
+  --tetiary-color: #fcb721;
+  --text-color: #fcfcfc;
+  --title-color: #141739;
+  --title-size: 1.8rem;
+
+  --description: 1.3rem;
+}
+button {
+  width: 21.3rem;
+  color: var(--text-color);
+
+  border-radius: 1.5rem;
+  padding: 0.9rem;
+  text-align: center;
+
+  outline: none;
+}
+a {
+  border-radius: 0.5rem;
+}
+span.grey {
+  color: grey;
+  margin: 0;
+}
+
+.addquestion {
+  width: 70vw;
+  margin: 0 auto;
+}
+.controlbox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+
+  align-self: center;
+  line-height: 0;
+}
+.controlheading {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-top: 0.9rem;
+}
+.papername {
+  width: 20rem;
+  font-size: 1.2rem;
+  padding: 0.4rem 1rem;
+  outline: var(--primary-color);
+}
+.papernam {
+  /* margin-right: 2rem; */
+  padding: 0.4rem 1rem;
+  width: 7.3rem;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  /* height: 1.6rem; */
+}
+.papericon {
+  color: red;
+  font-size: 2rem;
+  line-height: 2.5;
+  margin-right: 1.5rem;
+  /* background-color: red; */
+}
+.paper {
+  display: flex;
+
+}
